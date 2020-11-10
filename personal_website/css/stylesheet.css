@@ -13,10 +13,10 @@ h1{
 .outer-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
+
 .description-container{
-    text-align: left;
+    margin-left: 250px;
 }
 
 
@@ -38,4 +38,8 @@ h1{
         align-items: flex-start;
     }
 
+    .description-container{
+        margin-left: 0px;
+    }
+    
 }
