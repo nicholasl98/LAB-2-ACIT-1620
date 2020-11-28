@@ -2,11 +2,13 @@
 
 const courseList = [
 
+
     {code:"2515", name:"Object Oriented Programming", date:"Fall 2020"},
 
     {code:"1620", name:"Web Fundamental Technologies", date:"Fall 2020"},
 
     {code:"2420", name:"Linux System Administration", date:"Fall 2020"}, ];
+
 
 var input = prompt("Enter the 4 digit course ID: ");
 if (input.length != 4) 
@@ -22,6 +24,7 @@ for(i=0; i<courseList.length; i++){
         (courseList.push(addCourse));
         console.log("Success!"); break;
     }
+
 }
 
 function createCourseArray() {
@@ -78,5 +81,3 @@ findCourse(courseList)
 //         courseList = (`{code: ${courseinfo} ,date: ${coursedate}},{code: ${courseinfo2} ,date: ${coursedate2}},{code: ${courseinfo3} ,date: ${coursedate3}}`);
 //     console.log(courseList);
 // }
-
-
